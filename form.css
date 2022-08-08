@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(135deg, #c9e5f8, #ddb2ee);
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    justify-content: space-between;
+}
+.img{
+    width: 12%;
+}
+
+.heading{
+    color: rgb(9, 9, 133);
+}
+h3{
+   margin: 50px 0 20px 100px;
+   color: rgb(9, 9, 133);
+}
+/* .heading{
+text-align: center;
+margin-left: 20%;
+} */
+.sub-heading{
+    margin: 20px 30px 10px;
+}
+.photo{
+    border: 1px solid black;
+    padding: 60px 30px 60px 30px;
+}
+.container form{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container .row{
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+}
+.container .row .column{
+    flex: 1 1 250px;
+}
+.container .row .column .input-box span{
+    margin-bottom: 5px;
+    display: block;
+}
+.container .row .column .input-box input{
+    text-transform: none;
+    padding: 10px 15px;
+    
+}
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80%;
+}
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+table, th, td{
+    border:  2px solid black;
+}
+table .tableIp{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+th{
+    background-color:#ddb2ee;
+}
+.gender-detail{
+    padding: 10px;
+}
+.chkbx{
+    width: 30px;
+}
+.line{
+    border-bottom: 1px sold black;
+}
